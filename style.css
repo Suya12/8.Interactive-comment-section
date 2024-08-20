@@ -1,0 +1,122 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    background-color: hsl(228, 33%, 97%);
+}
+
+.my-grid {
+    display: grid;
+    grid-template-rows: 4fr 0.9fr;
+    padding-left: 25%;
+    padding-right: 25%;
+    gap: 1rem;
+}
+
+.container {
+    display: grid;
+    gap: 1rem;
+}
+
+.chat-box {
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+
+.chat-box input {
+    float:right;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: hsl(238, 42%, 57%);
+}
+
+.chat-box p {
+    margin-left:15%;
+}
+
+.reply-box p {
+    margin-left:15%;
+}
+
+.name {
+    font-size: 1.5rem;
+    color : hsl(238, 40%, 52%);
+}
+
+.createdAt {
+    font-size: 1rem;
+    padding-left: 1rem;
+    color : gray;
+}
+
+.profile-img {
+    float: left;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+.arrow-img {
+    float: right;
+    cursor: pointer;
+}
+
+
+
+.reply-box {
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+
+
+
+.reply-box input {
+    float: right;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: hsl(238, 42%, 57%);
+}
+
+.my-chat-div {
+    display: flex;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+
+.my-chat-div img {
+    margin-top: 1em;
+    width:4em;
+    height: 4.5em;
+}
+
+.bottom-input-box {
+    width:80%;
+    height: 4rem;
+    margin: 2%;
+    border: 1px solid hsl(238, 40%, 52%);
+    border-radius: 5px;
+    text-align: left;
+}
+
+.send-button {
+    width:10%;
+    padding: 2%;
+    margin: 5%;
+    cursor: pointer;
+    border:none;
+}
+
+::backdrop {
+    background-image: linear-gradient(
+      45deg,
+      magenta,
+      rebeccapurple,
+      dodgerblue,
+      green
+    );
+    opacity: 0.75;
+  }
